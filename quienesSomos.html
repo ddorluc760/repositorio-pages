@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+ 
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-10s">
+          <img style="margin-left: 10%;" src="img/imagen6.avif" width="72" height="57">
+          <a style="margin-left: 10%; margin-right: 20%;" herf="#"><em><strong>Hacer dinero pa' quitarme de problemas</strong> </em></a>
+        </div>
+    
+      </div>
+  
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="preguntasFrecuentes.html">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienesSomos.html">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#foot">Footer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://comoconociavuestramadre.fandom.com/wiki/Bar_MacLaren%27s">MacLaren's</a>
+            </li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Artículos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Chándal</a></li>
+                <li><a class="dropdown-item" href="#">Natación</a></li>
+                <li><a class="dropdown-item" href="#">Calzados</a></li>
+                <li><a class="dropdown-item" href="#">Pádel</a></li>
+                <li><a class="dropdown-item" href="#">Tenis</a></li>
+                <li><a class="dropdown-item" href="#">Gimnasio</a></li>
+                <li><a class="dropdown-item" href="#">Fútbol</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctame</a>
+            </li>
+          </ul>
+          <form class="d-flex needs-validation" novalidate>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" required>
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <div class="col-4 position-relative">
+                  <div class="invalid-feedback">¡Campo relleno de manera correcta!</div>
+                  <div class="valid-feedback">¡Campo incorrecto!</div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script>
+      (function () {
+          'use strict'
+  
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+  
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+      }
+  
+          form.classList.add('was-validated')
+      }, false)
+          })
+      })()
+  </script>
+  </header>
+  <main>
+    <div id="grid" class="container text-center">
+        <div class="row">
+          <div id="col1" class="col-lg-6 col-xl-6 col-xxl-6 col-md-12 col-sm-12 col-12">
+            <img id="mapa" src="img/imagen11.jpg">
+          </div>
+          <div id="col2" class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12 col-12 small">
+            <p><strong>Dirección: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nisi!</p>
+            <p><strong>Número Teléfono: </strong>4654151783</p>
+          </div>
+          <div id="col3" class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12 col-12 small">
+            <p><strong>Teléfono: </strong>564143234</p>
+            <button type="submit" class="btn btn-primary"><a href="contacto.html" class="text-white">Contacto</a></button>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer id="foot">
+    <div class="container-fluid bg-black">
+      <div class="row">
+        <div class="col-4">
+          <h5 class="text-white">¿Quién somos?</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2 text-white"><a href="#" class="nav-link p-0 text-muted text-white">C/AlfonsoXII, 4</a></li>
+            <li class="nav-item mb-2 text-white"><a href="#" class="nav-link p-0 text-muted text-white">Gmail:hacdinpquipro@gmail.com</a></li>
+            <li class="nav-item mb-2 text-white"><a href="#" class="nav-link p-0 text-muted text-white">Tel:958746127</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-4">
+          <h5 class="text-white">¿Qué realizamos?</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Venta de Vestimentas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mejores en ropa de marca</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Únicos en nuestro ámbito</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-4">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Política y Privacidad</a></li>
+          </ul>
+        </div>
+  
+      <div class="d-flex justify-content-between py-4 my-4">
+        <div class="row">
+          <h5 class="text-white">Redes sociales</h5>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a href="https://twitter.com/?lang=es"><img src="img/imagen2.jpg" width="60" height="57"></a></li>
+             <li class="ms-3"><a href="https://www.instagram.com/"><img src="img/imagen3.jpg" width="60" height="57"></a></li>
+             <li class="ms-3"><a href="https://www.facebook.com/?locale=es_ES"><img src="img/imagen4.jpg" width="65" height="60"></a></li>
+             <li class="ms-3"><a href="https://www.whatsapp.com/?lang=es_LA"><img src="img/imagen5.jpg" width="65" height="57"></a></li>
+           </ul>
+          </div>
+          <p class="text-white">© 2023 Company, Inc. All rights reserved.</p>
+   
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>

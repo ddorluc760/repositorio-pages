@@ -1,0 +1,41 @@
+/*.container{
+    background-color: red;
+    color: white;
+}
+.container-fluid{
+    background-color: blue;
+    color: white;
+}*/
+fieldset{
+    margin:5% 5% 5% 40%;
+    border: 1 black;
+}
+#name, #lastName, #email, #phone{
+    width: 30%;
+    height: 30%;
+}
+#card1, #card2, #card3{
+    margin:5% 5% 5% 40%;
+}
+#img7, #img10{
+    margin: 5% 5% 5% 40%;
+}
+#cliente1{
+    width: 10%;
+    height: 10%;
+}
+#accordion{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+#grid, #col1, #col2, #col3{
+    border: 1px solid black;
+}
+#grid{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#mapa{
+    height: 100%;
+    width: 100%;
+}
